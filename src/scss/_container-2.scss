@@ -1,0 +1,37 @@
+.container-2 {
+    margin-top: 0px;
+    padding-inline: 15px;
+
+    &__detail-text {
+        font-size: $detail-fontsize;
+        color: $secondary_color_azulclaro;
+        margin-bottom: 15px;
+        text-align: left;
+    }
+    &__h2 {
+        font-size: $fontsize-h2;
+        margin-bottom: 20px;
+        text-align: left;
+        line-height: $body_lineheigh;
+    }
+
+    &__text{
+        text-align: left;
+        color: $body_color;
+        line-height: $body_lineheigh;
+        margin-bottom: 30px;
+
+    }
+
+    &__button {
+        border: solid 2px $primary_color_orange;
+        background:none;
+        border-radius: 25px;
+        color: $primary_color_orange;
+        padding: 10px 25px 10px 25px;
+        font-size: $button-fontsize;
+        font-weight: $button-weight;
+
+    }
+
+}

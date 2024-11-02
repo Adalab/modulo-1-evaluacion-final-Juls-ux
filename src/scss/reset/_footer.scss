@@ -1,0 +1,47 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+    background-color:$secondary_color_azuloscuro;
+    color: white;
+    padding-inline:80px ;
+}
+.list-conteiner-1, .list-conteiner-2 {
+    margin-bottom: 30px;
+}
+.nav-footer, .nav-list, .nav-link {
+    text-transform: uppercase;
+    list-style:  none;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-size: $footer-font;
+    font-weight: $footer-fontweight;
+    
+}
+
+.footer-sect-2{
+    text-align: center;
+    font-size: $detail-fontsize;
+} 
+
+.icon-footer{
+    text-align: center;
+    font-family: $fontfamily-header;
+    color: $principal_color;
+    text-transform: uppercase;
+}
+
+.icon-scroll-to-top {
+    position: relative;
+    top: -20px;
+    height: 2.5rem;
+    width: 2.5rem;
+    padding-block: 10px;
+    background-color: white;
+    border-radius: 25px;
+    border: none;      
+
+}

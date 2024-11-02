@@ -17,42 +17,64 @@
   <body>
    
     <header class="header">
-      <div class="menu" >
-           <!-- &#9776; Ícono de hamburguesa -->
-          <img class="icon-menu" src="./images/ico-menu.svg" alt="">
+      <div class="header__menu" >
+        <a href="https://adalab.es/">
+          <img class="icon-menu" src="./images/ico-menu.svg" alt="icon-menu"> 
+          
+        </a>
+        
       </div>
 
     </header>
     
     <main>
-      <div class="container-1">
+      <div class="container-1" id="container-2">
         <h1 class="container-1__header1">Anonymous Proxy</h1>
         <p class="container-1__text"> In hac habitasse platea dictumst.</p>
-        <button class="container-1__button"><img src="./images/ico-scroll-down.svg" alt=""></button>
+        <a  href="#purchase">
+          <img class="container-1__button" src="./images/ico-scroll-down.svg" alt="">
+        </a>
+       
 
       </div>
 
-      Insomnia Tips
 
-      Looking Through A Window
+      <div class="container-2">
+        <p class="container-2__detail-text">Insomnia Tips</p>
+        <h2 class="container-2__h2">  Looking Through A Window</h2>
+        <P class="container-2__text"> Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+        </P>
+        <button class="container-2__button">Go</button>
 
-      Donec accumsan, nulla ut volutpat porttitor, quam odio tempus felis, at luctus ex diam nec lectus. Vivamus semper sodales rutrum.
+      </div>
 
-      <button></button>
+      <div class="container-3" id="purchase">
+        <section class="container-3__section-1"> 
+          <h2 class="container-3__h2">3 Reasons To Purchase</h2>
+        </section>
+       
+        
+        <section class="container-3__section-2">
+          <h3 class="container-3__h3">Ut sed metus</h3> 
+          <p class="container-3__text">Lorem ipsum dolor sit amet, consecteur.</p>
+        </section>
 
+        <section class="container-3__section-3">
+          <h3 class="container-3__h3">Curabitur ac erat</h3> 
+          <p class="container-3__text">Mauris mattis urna quis lorem molestie.</p>
+        </section>
 
-      3 Reasons To Purchase
+        <section class="container-3__section-4">
+          <h3 class="container-3__h3">Morbi dictum</h3> 
+          <p class="container-3__text">Aliquam in dolor et dolor tincidunt.</p>
+        </section>
 
-      Ut sed metus
-      Lorem ipsum dolor sit amet, consecteur.
+        <section class="container-3__section-5">
+          <button class="container-3__button">More reasons</button>
+        </section>
 
-      Curabitur ac erat
-      Mauris mattis urna quis lorem molestie.
-
-      Morbi dictum
-      Aliquam in dolor et dolor tincidunt.
-
-      <button>More reasons</button>
+        
+      </div>
       
 
     </main>
@@ -60,27 +82,34 @@
   </body>
 
   <footer class="footer">
-    <nav>
-      <ul>
-        <li><a href="">Articles</a></li>
-        <li><a href="">Books</a></li>
-        <li><a href="">Events</a></li>
-        <li><a href="">Reasons</a></li>
-        <li><a href="">Tips</a></li>
+
+    <div class="icon-footer">
+      <a href="container-1"><img class="icon-scroll-to-top" src="./images/ico-arrow.svg" alt="icon-menu" id="https://adalab.es/"> </a>
+      
+    </div>
+
+    <nav class="nav-footer">
+      <ul class="list-conteiner-1">
+        <li class="nav-list"><a class="nav-link" href="https://adalab.es/">Articles</a></li>
+        <li class="nav-list"><a class="nav-link" href="https://adalab.es/">Books</a></li>
+        <li class="nav-list"><a class="nav-link" href="https://adalab.es/">Events</a></li>
+        <li class="nav-list"></li><a class="nav-link" href="https://adalab.es/">Reasons</a></li>
+        <li class="nav-list"><a class="nav-link" href="https://adalab.es/">Tips</a></li>
       </ul>
 
-      <ul>
-        <li><a href="">Twitter</a></li>
-        <li><a href="">Instagram</a></li>
-        <li><a href="">Mastodon.social</a></li>
+      <ul class="list-conteiner-2">
+        <li class="nav-list"><a class="nav-link" href="https://adalab.es/">Twitter</a></li>
+        <li class="nav-list"><a class="nav-link" href="https://adalab.es/">Instagram</a></li>
+        <li class="nav-list"><a class="nav-link" href="https://adalab.es/">Mastodon.social</a></li>
 
       </ul>
     </nav>
 
-    &copy;2022
+    <div class="footer-sect-2">
+      &copy;2022
 
-    <p>we ❤︎ components</p>
-
+      <p>we ❤︎ components</p>
+    </div>
 
   </footer>
 </html>

@@ -1,0 +1,76 @@
+.container-3 {
+    margin-top: 60px;
+    background-color: $primary_color_iceblue;
+    padding-inline: 15px;
+    padding-block: 60px;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas: 
+    "titulo "
+    "texto-1"
+    "texto-2"
+    "texto-3"
+    "boton";
+     gap: 30px;
+
+    &__h2 {
+        font-size: $fontsize-h2;
+        font-weight: $fontweight-h1;
+        font-family: $fontfamily-header;
+
+    }
+
+    &__h3{
+        font-size: $fontsize-h3;
+        font-weight: $fontweight-h1;
+        font-family: $fontfamily-header;
+        margin-bottom: 6px;;
+    }
+
+    &__text{
+         text-align: center;
+        margin-inline: 0px;
+
+    } 
+    &__button{
+        background-color: $primary_color_orange;
+        color: white;
+        font-size: $button-fontsize;
+        font-weight: $button-weight;
+        border: none;
+        border-radius: 75px;
+
+        padding: 10px 30px 10px 30px;
+
+    }
+
+    &__section-1 {
+        grid-area: titulo;
+
+    
+        text-align: center;      
+    }
+    &__section-2 {
+        grid-area: texto-1;
+        text-align: center; 
+        padding-inline: 50px; 
+
+    }
+    &__section-3 {
+        grid-area: texto-2;
+        text-align: center;  
+        padding-inline: 50px; 
+
+   
+    }
+    &__section-4 {
+        grid-area: texto-3;
+        text-align: center;  
+        padding-inline: 50px; 
+
+    }
+    &__section-5 {
+        grid-area: boton;
+        text-align: center;  
+    }
+}
