@@ -15,19 +15,42 @@
 
     &__header1{
         text-align: center;
-        margin-top:400px;
+        margin-top:450px;
         font-family: $fontfamily-header;
         font-size: $fontsize-h1;
         font-weight: $fontweight-h1;
         color: $principal_color;
         text-transform: uppercase;
         line-height: $lineheigh-h1;
+        
+        @media (width > 768px) {
+            font-size: $fontsize-h1-tablet;
+            line-height: $lineheigh-h1-tablet;
+        }
+
+        @media (width > 1280px){
+            font-size: $fontsize-h1-desktop;
+            line-height: $fontsize-h1-desktop;
+
+        }
     }
+    
     &__text {
         color: $principal_color;
-        font-size: 16px;
+        font-size: $fontsize-subtitle;
         text-align: center;
         margin-block: 30px;
+
+        @media (width > 768px) {
+            font-size: $detail-fontsize-desktop ;
+     
+        }
+
+        @media (width > 1280px){
+  
+            font-size: $detail-fontsize-desktop;
+
+        }
     }
 
     &__button {
@@ -36,9 +59,16 @@
         height: 2.5rem;
         padding: 10px;
         border-radius: 50px;
-    
+        cursor: pointer;
+        transition: background-color $secondary_color_azulclaro;
+        
     }
 
-   
+    &__button:hover {
+        background-color: $secondary_color_azulclaro;
+        color: $primary_color_orange;
+        transform: scale(1.05);
+    }
+
 
 }

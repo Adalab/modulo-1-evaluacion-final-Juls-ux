@@ -1,14 +1,13 @@
 .header{
     position: sticky;
     top: 0;
-    
     z-index: 1;
   
     &__menu {
     
       background-color: $secondary_color_azul;
-      width: 40px;
-      height: 40px;
+      width: 2.5rem;
+      height: 2.5rem;
       padding: 5px;
       flex-grow: 0;
       text-align: center;
