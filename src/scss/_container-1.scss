@@ -11,6 +11,9 @@
     transform: rotate(-0.23deg);
     height: 100vh;
     padding-inline: 15px;
+    @media (width > 768px) {
+        top: -60px;
+      }
      
 
     &__header1{
