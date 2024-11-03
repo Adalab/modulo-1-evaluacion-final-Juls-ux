@@ -8,8 +8,7 @@
     }
 
     @media (width > 1280px){
-
-        padding-inline: 275px;
+padding-inline: 275px;
 
     }
 
@@ -18,6 +17,7 @@
         color: $secondary_color_azulclaro;
         margin-bottom: 15px;
         text-align: left;
+        
     }
     &__h2 {
         font-size: $fontsize-h2;
@@ -31,6 +31,9 @@
         color: $body_color;
         line-height: $body_lineheigh;
         margin-bottom: 30px;
+        @media (width > 1280px){
+            width: 730px;
+        }
 
     }
 
