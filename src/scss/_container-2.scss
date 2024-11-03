@@ -1,5 +1,5 @@
 .container-2 {
-    margin-top: 0px;
+    margin-top: 60px;
     padding-inline: 15px;
 
     @media (width > 768px) {
@@ -21,6 +21,7 @@ padding-inline: 275px;
     }
     &__h2 {
         font-size: $fontsize-h2;
+        font-family: $fontfamily-header;
         margin-bottom: 20px;
         text-align: left;
         line-height: $body_lineheigh;

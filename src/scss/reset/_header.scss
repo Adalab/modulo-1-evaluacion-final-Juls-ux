@@ -1,25 +1,19 @@
-.header{
-    position: sticky;
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1;  
+
+  &__burger-menu {
+    position: fixed;
     top: 0;
-    z-index: 1;
-  
-    &__menu {
-    
-      background-color: $secondary_color_azul;
-      width: 2.5rem;
-      height: 2.5rem;
-      padding: 5px;
-      flex-grow: 0;
-      text-align: center;
-      margin: 0;
-
-      @media (width > 768px) {
-        padding: 8px;
-      }
-
-
-      
-    }
-  
+    left: 0;
+    width: 100%;
+    z-index: 10;
   }
-  
+
+  &__burger-menu-icon{
+    background-color: $secondary_color_azul;
+    padding: 10px;  
+  }
+}
+
