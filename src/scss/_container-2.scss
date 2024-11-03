@@ -8,7 +8,7 @@
     }
 
     @media (width > 1280px){
-padding-inline: 275px;
+        padding-inline: 275px;
 
     }
 
@@ -46,7 +46,14 @@ padding-inline: 275px;
         padding: 10px 25px 10px 25px;
         font-size: $button-fontsize;
         font-weight: $button-weight;
+        transition:  0.3s, background-color 0.3s;
 
+    }
+    &__button:hover{
+        transform: scale(1.05);
+        color: $primary_color_iceblue;
+        background-color: $secondary_color_azulclaro; 
+        border-color: $secondary_color_azulclaro;
     }
 
     &__link-button {

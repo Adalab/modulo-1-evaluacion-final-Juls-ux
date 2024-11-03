@@ -69,9 +69,14 @@
         font-weight: $button-weight;
         border: none;
         border-radius: 75px;
-
         padding: 10px 30px 10px 30px;
+        transition: 0.3s, background-color 0.3s;
 
+    }
+    &__buton:hover {
+        transform: scale(1.05);
+        background-color: $secondary_color_azuloscuro; 
+        border-color: $secondary_color_azulclaro;
     }
 
     &__section-1 {
