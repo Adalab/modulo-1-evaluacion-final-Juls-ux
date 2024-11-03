@@ -2,6 +2,17 @@
     margin-top: 0px;
     padding-inline: 15px;
 
+    @media (width > 768px) {
+        padding-inline: 40px;
+ 
+    }
+
+    @media (width > 1280px){
+
+        padding-inline: 275px;
+
+    }
+
     &__detail-text {
         font-size: $detail-fontsize;
         color: $secondary_color_azulclaro;
@@ -38,5 +49,6 @@
         text-decoration: none;
         color: $primary_color_orange;
     }
+
 
 }

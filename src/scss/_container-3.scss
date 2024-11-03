@@ -1,8 +1,9 @@
 .container-3 {
+    
     margin-top: 60px;
     background-color: $primary_color_iceblue;
     padding-inline: 15px;
-    padding-block: 60px;
+    padding-block: 80px;
     display: grid;
     grid-template-rows: auto;
     grid-template-areas: 
@@ -13,10 +14,32 @@
     "boton";
      gap: 30px;
 
+     @media (width > 768px) {
+        grid-template-areas: 
+        "titulo titulo titulo"
+        "texto-1 texto-2 texto-3"
+        "boton boton boton";
+         gap: 30px;
+    
+    }
+
+    @media (width > 1280px){
+
+        padding-inline: 80px;
+
+    }
+
     &__h2 {
         font-size: $fontsize-h2;
         font-weight: $fontweight-h1;
         font-family: $fontfamily-header;
+        @media (width > 768px) {
+            font-size: $fontsize-h2-tablet;
+        }
+        @media (width > 1280) {
+            font-size: $fontsize-h2-desktop;
+        }
+        
 
     }
 
@@ -24,7 +47,14 @@
         font-size: $fontsize-h3;
         font-weight: $fontweight-h1;
         font-family: $fontfamily-header;
-        margin-bottom: 6px;;
+        margin-bottom: 6px;
+
+        @media (width > 768px) {
+            font-size: $fontsize-h3-tablet;
+        }
+        @media (width > 1280) {
+            font-size: $fontsize-h3-desktop;
+        }
     }
 
     &__text{
@@ -73,4 +103,5 @@
         grid-area: boton;
         text-align: center;  
     }
+
 }
