@@ -19,6 +19,7 @@
         text-transform: uppercase;
         top: -25px;
         left: 0px;
+    
     }
     
     &__icon-scroll-to-top {
@@ -30,7 +31,7 @@
         background-color: white;
         border-radius: 25px;
         border: none; 
-
+        
     
     }
 }
@@ -43,10 +44,11 @@
     
     @media (width > 768px) {
         flex-direction: row-reverse;
-        justify-content: space-around;
+        justify-content: space-between;
+        
     }
 
-    &__list-conteiner, &__footer-sect-2{
+    &__list-conteiner-1, &__list-conteiner-2 ,&__footer-sect-2{
         text-decoration: none;
         list-style: none;
         text-align: center;
@@ -55,7 +57,10 @@
         font-size: $footer-font;
         @media (width > 768px) {
             text-align: left;
+            flex-direction: row-reverse;   
+             
         }
+       
 
     }
     &__nav-link  {

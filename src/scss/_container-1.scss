@@ -27,7 +27,8 @@
   
       &__h1 {
         text-align: center;
-        margin-top:450px;
+        align-items: end;
+        margin-top:400px;
         font-family: $fontfamily-header;
         font-size: $fontsize-h1;
         font-weight: $fontweight-h1;
@@ -37,7 +38,7 @@
         
         @media (width > 768px) {
           width: 650px;
-          margin-top:300px;
+          margin-top:390px;
           font-size: $fontsize-h1-tablet;
           line-height: $lineheigh-h1-tablet;
         
