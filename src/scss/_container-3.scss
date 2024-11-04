@@ -61,22 +61,26 @@
          text-align: center;
         margin-inline: 0px;
 
-    } 
-    &__button{
-        background-color: $primary_color_orange;
+    }
+    &__link-button{
+        text-decoration: none;
         color: white;
+    } 
+    &__button {
+        background-color: $primary_color_orange;
         font-size: $button-fontsize;
         font-weight: $button-weight;
         border: none;
         border-radius: 75px;
-        padding: 10px 30px 10px 30px;
-        transition: 0.3s, background-color 0.3s;
+        padding: 15px 35px 15px 35px;
+        transition:  0.3s, background-color 0.3s;
 
     }
-    &__buton:hover {
+    &__button:hover {
         transform: scale(1.05);
+        color: $primary_color_iceblue;
         background-color: $secondary_color_azuloscuro; 
-        border-color: $secondary_color_azulclaro;
+        border-color: none;
     }
 
     &__section-1 {
