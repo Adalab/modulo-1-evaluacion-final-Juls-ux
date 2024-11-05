@@ -45,9 +45,16 @@
         align-items: center;
         text-align: center;
          @media (width > 768px) {
-            flex-direction: row-reverse;
+            flex-direction: row;
             justify-content: space-between;  
+            flex: 1;
         }
+    }
+    &__list-container {
+        @media (width > 768px) {
+        order: 1;
+        }
+
     }
   
 
