@@ -28,13 +28,14 @@
       &__h1 {
         text-align: center;
         align-items: end;
-        margin-top:400px;
+        margin-top:450px;
         font-family: $fontfamily-header;
         font-size: $fontsize-h1;
         font-weight: $fontweight-h1;
         color: $principal_color;
         text-transform: uppercase;
         line-height: $lineheigh-h1;
+        text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
         
         @media (width > 768px) {
           width: 650px;

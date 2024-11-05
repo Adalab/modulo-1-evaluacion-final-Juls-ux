@@ -25,6 +25,9 @@
         margin-bottom: 20px;
         text-align: left;
         line-height: $body_lineheigh;
+        @media (width > 768px){
+            font-size:$fontsize-h2-tablet;
+        }
     }
 
     &__text{
