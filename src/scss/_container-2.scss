@@ -21,13 +21,17 @@
     }
     &__h2 {
         font-size: $fontsize-h2;
+        font-weight: $fontweight-h1;
         font-family: $fontfamily-header;
         margin-bottom: 20px;
-        text-align: left;
-        line-height: $body_lineheigh;
-        @media (width > 768px){
-            font-size:$fontsize-h2-tablet;
+        @media (width > 768px) {
+            font-size: $fontsize-h2-tablet;
         }
+        @media (width > 1280px) {
+            font-size: $fontsize-h2-desktop;
+        }
+        
+
     }
 
     &__text{
